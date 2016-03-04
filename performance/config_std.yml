@@ -1,0 +1,16 @@
+in:
+  type: file
+  path_prefix: dummy
+  parser:
+    type: csv
+    columns:
+    - {name: timestamp, type: timestamp, format: '%Y-%m-%d %H:%M:%S.%L'}
+
+out:
+  type: file
+  path_prefix: out
+  file_ext: csv
+  formatter:
+    type: csv
+    column_options:
+      timestamp: {format: '%Y-%m-%d %H:%M:%S.%L'}
