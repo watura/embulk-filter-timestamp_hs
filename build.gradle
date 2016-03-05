@@ -76,7 +76,7 @@ Gem::Specification.new do |spec|
   spec.version       = "${project.version}"
   spec.authors       = ["Matsuoka Takashi"]
   spec.summary       = %[Timestamp Hs filter plugin for Embulk]
-  spec.description   = %[Timestamp Hs]
+  spec.description   = %[Convert string to timestamp at high speed.]
   spec.email         = ["mt@xfutures.jp"]
   spec.licenses      = ["MIT"]
   spec.homepage      = "https://github.com/arenahito/embulk-filter-timestamp_hs"
