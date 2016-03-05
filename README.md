@@ -1,5 +1,8 @@
 # Timestamp Hs filter plugin for Embulk
 
+[![Gem Version](https://badge.fury.io/rb/embulk-filter-timestamp_hs.svg)](https://badge.fury.io/rb/embulk-filter-timestamp_hs)
+[![Build Status](https://travis-ci.org/arenahito/embulk-filter-timestamp_hs.svg?branch=master)](https://travis-ci.org/arenahito/embulk-filter-timestamp_hs)
+
 Convert string to timestamp at high speed.
 
 ## Overview
