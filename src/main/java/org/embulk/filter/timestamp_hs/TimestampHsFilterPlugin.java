@@ -166,7 +166,8 @@ public class TimestampHsFilterPlugin implements FilterPlugin {
                     log.warn(String.format(
                             "Could not convert string to timestamp: '%s'",
                             inputText));
-                    builder.setNull(inputColumn);
+                    Timestamp timestamp = Timestamp.valueOf("0001-01-01 00:00:00.0");
+                    builder.setTimestamp(inputColumn, timestamp);
                 }
             }
 
